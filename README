@@ -1,0 +1,4 @@
+cd ~
+ln -s .vim/vimrc .vimrc
+cd .vim
+ln -s wombat256.vim/colors/ colors
