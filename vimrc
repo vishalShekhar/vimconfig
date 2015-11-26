@@ -1,6 +1,10 @@
 " Activate Pathogen
  runtime bundle/vim-pathogen/autoload/pathogen.vim
  execute pathogen#infect()
+
+" Color is too dark
+ set background=dark
+
 " Enable Mouse 
  set mouse=a
 
@@ -55,3 +59,8 @@
  
  " Jedi
  let g:jedi#popup_on_dot = 0 
+
+ " Emmet-Vim
+ let g:user_emmet_install_global = 0
+ autocmd FileType html,css EmmetInstall
+ let g:user_emmet_leader_key='<C-Z>'
