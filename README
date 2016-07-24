@@ -1,4 +1,8 @@
 cd ~
+git clone https://github.com/vishalShekhar/vimconfig.git .vim
 ln -s .vim/vimrc .vimrc
 cd .vim
+git submodule update --init --recursive
+# if need to update the submodules to the latest code 
+#./update.sh 
 ln -s wombat256.vim/colors/ colors
