@@ -8,11 +8,18 @@
 " Enable Mouse 
  set mouse=a
 
+" Show Command
+ set showcmd
+
 " <Leader> Key
  let mapleader=","
 
+" Leader Press timeout
+set timeoutlen=1500
+
 " Easier Tab movements
- map <Leader><Tab> <esc>:tabnext<CR><Leader>
+ map <Leader><Tab> <esc>:bn<CR>,
+ map <Leader><S-Tab> <esc>:bp<CR>,
 
 " Moving code Blocks Together and retain selection
  vnoremap < <gv
