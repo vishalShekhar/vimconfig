@@ -48,6 +48,11 @@ set timeoutlen=1500
  set ignorecase
  set smartcase " lowercase string search case-sensitive else ignorecase
 
+ " Code Folding
+ set foldmethod=indent
+ nn - zc
+ nn + zo
+
 " ====================================================================
 " Python IDE Setup
 " ====================================================================
