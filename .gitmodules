@@ -22,3 +22,6 @@
 [submodule "bundle/vim-autoformat"]
 	path = bundle/vim-autoformat
 	url = https://github.com/Chiel92/vim-autoformat.git
+[submodule "bundle/wombat256"]
+	path = bundle/wombat256
+	url = https://github.com/vim-scripts/wombat256.vim
