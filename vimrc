@@ -2,8 +2,8 @@
  runtime bundle/vim-pathogen/autoload/pathogen.vim
  execute pathogen#infect()
 
-" Color is too dark
- set background=dark
+" Color Scheme
+:colorscheme koehler
 
 " Enable Mouse 
  set mouse=a
