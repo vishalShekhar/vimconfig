@@ -16,3 +16,5 @@ git submodule update --init --recursive
 # Set Color scheme to wombat
 # export TERM=xterm-256color
 # :colorscheme wombat256
+
+# Helpful url : http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
