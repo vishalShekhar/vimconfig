@@ -3,7 +3,9 @@
  execute pathogen#infect()
 
 " Color Scheme
-:colorscheme koehler
+ syntax enable
+ :colorscheme solarized
+ set background=dark
 
 " Enable Mouse 
  set mouse=a
@@ -15,7 +17,7 @@
  let mapleader=","
 
 " Leader Press timeout
-set timeoutlen=1500
+ set timeoutlen=1500
 
 " Easier Tab movements
  map <Leader><Tab> <esc>:bn<CR>,
@@ -25,10 +27,9 @@ set timeoutlen=1500
  vnoremap < <gv
  vnoremap > >gv
 
-" Enable systax highlighting
+" Enable syntax highlighting
  filetype off
  filetype plugin indent on
- syntax on
 
 " Show line numbers
  set number
@@ -57,7 +58,8 @@ set timeoutlen=1500
  nn + zo
 
 " Set highlight 80th column
-set colorcolumn=80
+ set colorcolumn=80
+ highlight ColorColumn ctermbg=160 guibg=#D80000
 
 " ====================================================================
 " Python IDE Setup
