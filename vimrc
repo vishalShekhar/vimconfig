@@ -3,7 +3,7 @@
  execute pathogen#infect()
 
 " Color Scheme
-:colorscheme koehler
+:colorscheme wombat256mod
 
 " Enable Mouse 
  set mouse=a
@@ -31,7 +31,10 @@ set timeoutlen=1500
  syntax on
 
 " Show line numbers
- set number "show line numbers
+ set number
+
+" Allow backspace over indents/ line breaks/ start of inserts
+ set backspace=indent,eol,start
 
 " History & Undo Settings
  set history=700
