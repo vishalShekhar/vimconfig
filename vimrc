@@ -3,7 +3,7 @@
  execute pathogen#infect()
 
 " Color Scheme
-:colorscheme wombat256mod
+:colorscheme koehler
 
 " Enable Mouse 
  set mouse=a

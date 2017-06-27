@@ -12,6 +12,7 @@ git submodule update --init --recursive
 # git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
 # git add .
 # git commit -m "Install Fugitive.vim bundle as a submodule."
+# git submodule update --init --recursive
 
 # Set Color scheme to wombat
 # export TERM=xterm-256color
