@@ -34,6 +34,7 @@
 
 " Show line numbers
  set number
+ set relativenumber
 
 " Allow backspace over indents/ line breaks/ start of inserts
  set backspace=indent,eol,start
