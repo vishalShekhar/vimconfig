@@ -14,6 +14,9 @@
 " Show Command
  set showcmd
 
+" Scroll Speed
+ set lazyredraw
+
 " <Leader> Key
  let mapleader=","
 
