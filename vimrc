@@ -62,8 +62,8 @@
  nn - zc
  nn + zo
 
-" Set highlight 80th column
- set colorcolumn=80
+" Set highlight 95th column
+ set colorcolumn=95
  highlight ColorColumn ctermbg=160 guibg=#D80000
 
 " ====================================================================
