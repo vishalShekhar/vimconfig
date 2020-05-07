@@ -84,8 +84,3 @@
  
  " Jedi
  let g:jedi#popup_on_dot = 0 
-
- " Emmet-Vim
- let g:user_emmet_install_global = 0
- autocmd FileType html,css EmmetInstall
- let g:user_emmet_leader_key='<C-Z>'
