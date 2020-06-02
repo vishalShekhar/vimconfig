@@ -16,15 +16,10 @@
 [submodule "bundle/vim-autoformat"]
 	path = bundle/vim-autoformat
 	url = https://github.com/Chiel92/vim-autoformat.git
-[submodule "bundle/wombat256"]
-	path = bundle/wombat256
-	url = https://github.com/vim-scripts/wombat256.vim
-[submodule "bundle/flake8"]
-	path = bundle/flake8
-	url = https://github.com/nvie/vim-flake8
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "EnhCommentify.vim"]
 	path = EnhCommentify.vim
 	url = https://github.com/vim-scripts/EnhCommentify.vim
+[submodule "bundle/jedi"]
+	path = bundle/jedi
+	url = https://github.com/davidhalter/jedi-vim.git
+	branch = master
