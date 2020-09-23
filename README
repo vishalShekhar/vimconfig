@@ -9,13 +9,14 @@ git submodule update --init --recursive
 
 # Adding a new sub module
 # cd ~/.vim
-# git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+# git submodule add -b master https://github.com/davidhalter/jedi-vim.git bundle/jedi
 # git add .
-# git commit -m "Install Fugitive.vim bundle as a submodule."
+# git commit -m "Install Jedi.vim bundle as a submodule."
 # git submodule update --init --recursive
 
-# Set Color scheme to wombat
-# export TERM=xterm-256color
-# :colorscheme wombat256
-
 # Helpful url : http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
+# Deleting a sub module
+# git submodule deinit -f bundle/vim-colors-solarized
+# rm -fr .git/modules/bundle/vim-colors-solarized
+# git rm -f bundle/vim-colors-solarized
