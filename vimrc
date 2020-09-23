@@ -81,6 +81,9 @@
 
  " SuperTab
  let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
+
+ "Insert debugger 
+ nnoremap <leader>p Oimport ipdb; ipdb.set_trace()<Esc> 
  
  " Jedi
  let g:jedi#popup_on_dot = 0 
